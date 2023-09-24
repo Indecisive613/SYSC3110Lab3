@@ -24,6 +24,14 @@ public class AddressBook {
         return true;
     }
 
+    public boolean removeBuddy(int index){
+        if(index < 0 || index >= buddies.size()){
+            return false;
+        }
+        buddies.remove(index);
+        return true;
+    }
+
     //Returns true if a buddy was successfully removed
     public boolean removeBuddy(BuddyInfo buddy){
         Iterator<BuddyInfo> iter = buddies.iterator();
