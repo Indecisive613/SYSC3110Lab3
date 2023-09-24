@@ -1,3 +1,5 @@
+//Defines an AddressBook
+
 import java.util.ArrayList;
 import java.util.Iterator;
 
